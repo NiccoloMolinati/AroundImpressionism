@@ -32,7 +32,9 @@ body {
   background: #556F44;
   padding: 25px 0;
 }
-
+.frontimg{
+  max-width: 33%;
+}
 .container {
   width: 90%;
   max-width: 1200px;
