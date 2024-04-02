@@ -11,7 +11,7 @@ header img{
   right:18%;
 }
 body {
-  background: #659B5E;
+  background: #acacac;
   overflow-x: hidden;
   padding-bottom: 50px;
 }
@@ -29,19 +29,19 @@ body {
   font-weight: 700;
 }
 .intro {
-  background: #556F44;
+  background: #acacac;
   padding: 25px 0;
 }
 .frontimg{
-  max-width: 33%;
-  height: 25%;
+  max-width: 35%;
+  height: 600px;
 }
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  color: #659B5E;
+  color: #b643a5;
   padding: 25px;
 }
 
@@ -54,7 +54,7 @@ h1 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #659B5E;
+  background: #acacac;
   padding: 50px 0;
 }
 
@@ -64,7 +64,7 @@ h1 {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background:#C0D6DF;
+  background:#b643a5;
 }
 
 .timeline ul li::after {
@@ -85,9 +85,9 @@ h1 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #689689;
+  background: #b643a5;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #C0D6DF;
+  color: #000000;
 }
 
 a{
@@ -98,7 +98,7 @@ time {
   font-weight: bold;
   margin-bottom: 8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #C0D6DF;
+  color: #000000;
   visibility: visible;
 }
 
@@ -130,4 +130,18 @@ time {
   transform: none;
   visibility: visible;
   opacity: 1;
+}
+
+/* tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+tr {
+  padding: 5px;
+  border: 1px solid;
+}
+th { background-color: #b643a5;}
+table{
+  text-align: left;
+  position: relative;
+  left: 10%;
+  top: 50px;
 }
