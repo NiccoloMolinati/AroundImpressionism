@@ -34,6 +34,7 @@ body {
 }
 .frontimg{
   max-width: 33%;
+  height: 25%;
 }
 .container {
   width: 90%;
