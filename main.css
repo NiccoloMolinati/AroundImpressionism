@@ -98,11 +98,11 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #83b0ff;
 		/* background-image: url('images/woman_with_a_parasol_-_madame_monet_and_her_son_1983.1.29.jpg');*/
 	}
 	body.visualization{
-		background: #8768d5		
+		background: #d6ffdf		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -182,7 +182,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #312450;
+		color: #83b0ff;
 		text-shadow: 0 0 1px #3e4094, 0 0 1px #3e4094;
 		font-weight: bold;
 		line-height: 1.5;
@@ -205,10 +205,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #312450, #8768d5);
-				background-image: -webkit-linear-gradient(to right, #312450, #8768d5);
-				background-image: -ms-linear-gradient(to right, #312450, #8768d5);
-				background-image: linear-gradient(to right, #312450, #8768d5);
+				background-image: -moz-linear-gradient(to right, #83b0ff, #2f5b39);
+				background-image: -webkit-linear-gradient(to right, #83b0ff, #2f5b39);
+				background-image: -ms-linear-gradient(to right, #83b0ff, #2f5b39);
+				background-image: linear-gradient(to right, #83b0ff, #2f5b39);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1843,7 +1843,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #312450 !important;
+		color: #2f5b39 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1926,7 +1926,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #2f5b39 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2367,7 +2367,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #83b0ff;
 		}
 
 		select:focus::-ms-value {
@@ -2536,7 +2536,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #83b0ff;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3535,7 +3535,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #83b0ff;
 		cursor: default;
 		height: 100vh;
 		left: 0;
