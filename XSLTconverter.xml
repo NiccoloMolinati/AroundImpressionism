@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <xsl:template match="/">
+        <html>                                             <!--Index of the catalogue-->
+            <head>
+                <title>Index of the Catalogue</title>
+                <link rel="stylesheet" href="assets/css/main.css"/>
+            </head>
+            <body>
+                <h1>Index of the Catalogue for the second impressionist exhibition</h1>
+                <div>
+                    <p><xsl:value-of select="//tei:titleStmt/tei:title"/></p>
+                    <xsl:for-each select="//tei:respStmt">
+                        <p><xsl:value-of select="tei:resp"/></p>
+                        <p><xsl:value-of select="tei:name"/></p>
+                    </xsl:for-each>
+                    <p>Publishing:</p>
+                    <xsl:for-each select="//tei:publicationStmt">
+                        <p><xsl:value-of select="tei:publisher"/></p>
+                        <p><xsl:value-of select="tei:pubPlace"/></p>
+                        <p><xsl:value-of select="tei:date"/></p>
+                        <p>License:<xsl:value-of select="tei:availability/tei:p"/></p>
+                    </xsl:for-each>
+                    <xsl:for-each select="//tei:sourceDesc/tei:bibl">
+                        <h2><xsl:value-of select="tei:title"/></h2>
+                        <p><xsl:value-of select="tei:date"/></p>
+                        <xsl:for-each select="tei:orgName">
+                            <xsl:variable name="sourceUri" select="@ref"/>
+                            <p>Source:</p><a href="{$sourceUri}"><xsl:value-of select="."/></a>
+                        </xsl:for-each>
+                    </xsl:for-each>
+                </div>
+                <div>
+                    <h2>Index:</h2>
+                    <!--<xsl:variable name="uri" select="'https://niccolomolinati.github.io/AroundImpressionism/'"/>  -->
+                    <xsl:for-each select="//tei:div[@facs]">
+                        <xsl:variable name="pageN" select="@facs"/>
+                        <a href="#{$pageN}"><xsl:value-of select="@facs"/>: <xsl:value-of select="@type"/></a><br/>
+                    </xsl:for-each>
+                </div>
+                <div>
+                    <xsl:for-each select="//tei:div[@facs]">                                        <!-- a new section for each page-->
+                        <xsl:variable name="pageN" select="@facs"/>
+                        <div id="{$pageN}">
+                            <h1><xsl:value-of select="@facs"/></h1>
+                            <h3>Type: <xsl:value-of select="@type"/></h3>
+                            <!--<xsl:variable name="uri" select="'https://niccolomolinati.github.io/AroundImpressionism/images/'"/>
+                            <xsl:variable name="pageN" select="@facs"/>
+                            <img src="{$uri$pageN}.JPEG"/>-->
+                            <xsl:choose>
+                                <xsl:when test="tei:listBibl">
+                                    <xsl:for-each select="tei:listBibl">
+                                        <xsl:if test="tei:head">
+                                            <h4><xsl:value-of select="tei:head"/></h4>
+                                        </xsl:if>
+                                        <xsl:for-each select="tei:bibl">
+                                            <p><xsl:value-of select="."/></p>
+                                        </xsl:for-each>
+                                    </xsl:for-each>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                <!--<xsl:choose>
+                                        <xsl:when test="tei:note">
+                                            <q><xsl:value-of select="tei:note"/></q><br/>
+                                        </xsl:when>
+                                        <xsl:when test="tei:head">
+                                            <b><xsl:value-of select="tei:head"/></b><br/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <p><xsl:value-of select="tei:p"/></p>
+                                        </xsl:otherwise>
+                                    </xsl:choose>-->
+                                    <xsl:for-each select="*">
+                                        <xsl:message>Processing element: <xsl:value-of select="name()"/></xsl:message>
+                                            <xsl:choose>
+                                            <xsl:when test="local-name() = 'note'">
+                                                <q><xsl:value-of select="."/></q><br/>
+                                            </xsl:when>
+                                            <xsl:when test="local-name() = 'head'">
+                                                <b><xsl:value-of select="."/></b><br/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <p><xsl:value-of select="."/></p><br/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:for-each>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </div>
+                    </xsl:for-each>
+                </div>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
