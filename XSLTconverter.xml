@@ -44,9 +44,6 @@
                         <div id="{$pageN}">
                             <h1><xsl:value-of select="@facs"/></h1>
                             <h3>Type: <xsl:value-of select="@type"/></h3>
-                            <!--<xsl:variable name="uri" select="'https://niccolomolinati.github.io/AroundImpressionism/images/'"/>
-                            <xsl:variable name="pageN" select="@facs"/>
-                            <img src="{$uri$pageN}.JPEG"/>-->
                             <xsl:choose>
                                 <xsl:when test="tei:listBibl">
                                     <xsl:for-each select="tei:listBibl">
