@@ -148,4 +148,4 @@ for div in teiNode.iterfind(".//tei:div[@facs]", ns):
                 final_graph.add((current_page_uri, rn.DC.subject, current_work_uri))
                 final_graph.add((current_work_uri, rn.SDO.isPartOf, current_page_uri))
 
-# final_graph.serialize(destination="RDFfromXMLfinal.rdf")
+final_graph.serialize(destination="RDFfromXMLfinal.rdf")
