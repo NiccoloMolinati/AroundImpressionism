@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Meta - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload visualization">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Around Impressionism</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">idea and objects</a></li>
+						<li><a href="generic.html" class="active">XML file</a></li>
+						<li><a href="elements.html">Python RDF converter</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+				<section id="main" class="wrapper">
+					<div class="inner">
+							<h1 class="major">Metadata Alignmet</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<p>The next step is the metadata analysis. With a more in depth research, we found (or in a couple of cases, decided to assign) the metadata schema used to describe each object.</p>
+							<p>Following the examination and characterization of the standards employed by the aforementioned institutions, we harmonized the standards, aligning their attributes based on their respective functions. Notably, we segregated the attributes into four primary categories corresponding to our item classification (Person, Date, Place, Event/concept, as delineated in our E/R model). A review of these tables reveals distinctive materials and objects for description by each institution, juxtaposed with the unique standards applicable to individual objects.</p>
+						</div>
+					</section>
+					<section id="main" class="wrapper">
+						<div class="inner">
+					  <h2>Metadata Analysis</h2>
+							<table class="table-wrapper">
+								<tr><th>item title</th><th>item type</th><th>provider</th><th>metadata standard</th></tr>
+								<tr><td>Impressionism</td><td>Film</td><td>Internet Archive</td><td>DCMI</td></tr>
+								<tr><td>The Carnegie Hall Library Of Classical Music
+								(Impressionism 1900-1930)</td><td>Audio</td><td>Internet Archive</td><td>DCMI*</td></tr>
+								<tr><td>Impressionism : reflections and perceptions 
+								/ Meyer Schapiro</td><td>Book</td><td>Opac SBN</td><td>ISBD</td></tr>
+								<tr><td>Das Hutanstecken</td><td>Painting</td><td>Albertina</td><td></td></tr>
+								<tr><td>Tomb of Claude Monet</td><td>Photograph</td><td>BNF</td><td>ISBD</td></tr>
+								<tr><td>Picture of Claude Monet</td><td>Photograph</td><td>Deutsche Fotothek</td><td>ISAD**</td></tr>
+								<tr><td>Catalogue of the second exhibition</td><td>Book</td><td>BNF</td><td>ISBD</td></tr>
+								<tr><td>Rose "Edgar Degas"</td><td>Botanical Species</td><td>University of Trieste</td><td>ABCD***</td></tr>
+								<tr><td>Der maler Renoir</td><td>Sculpture</td><td>Deutsches Dokumentationszentrum 
+								für Kunstgeschichte</td><td>DCMI</td></tr>
+								<tr><td>Claude Monet and the "Birth" of Impressionism</td><td>Podcast</td><td>Apple Podcasts</td><td>RSS/ID3</td></tr>
+							</table>
+							<p class="small-notes">*We have contacted Internet Archive because the platform was not clear about the standards used. They mentioned that their metadata schema is based on modified Dublin Core, since it's applied over most standards, for its core relevancy.<br/>
+							**no ntandard was directly specified<br/>
+							***no standard is explicitely defined. However, Europeana points to an "aggregator" of the object, which uses this standard for natural history collections.</p>
+							<p>we then proceeded with the mapping of our metadata against the dc:terms in order to produce a set of tables (divided by the 4Ws) that would group the general concepts and information we wanted to represent in our final model.</p>
+						</div>
+					</section>
+				</section>
+				<section id="main" class="wrapper">
+					<div class="inner">
+						<h2>Metadata Mapping</h2>
+						<table class="table-wrapper">
+							<tr><th>Property</th><th>dc:terms</th><th>ISBD</th><th>ISAD</th><th>ABCD</th><th>RSS</th><th>ID3</th><th>DCMI</th></tr>
+							<tr><th>WHAT</th></tr>
+							<tr><td>Title</td><td>dc:title</td><td>1.1 Proper title</td><td>1.2 Title</td><td>FullScientificNameString</td><td>Title</td><td>TIT2</td><td>dc:title/dc:alternative</td></tr>
+							<tr><td>Type</td><td>dc:type</td><td>0.2 Media type</td><td>1.4 Level of description</td><td>HigherTaxa</td><td>enclosure ... type = ... </td><td>TCON</td><td>dc:type</td></tr>
+							<tr><td>Subject</td><td>dc:subject</td><td>7.10.2 Note providing a summary/ 7.5 Note on material description"</td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+						</table>
+					</div>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
