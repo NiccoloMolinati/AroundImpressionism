@@ -1,0 +1,1599 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/document/catalogue_2nd_ex> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> ;
+    dc:title "Catalogue de la 2e Exposition de peinture , par MM. Béliard, Legros, Pissaro... Renoir... Sisley, Degas, Monet (Claude)... Morisot (Berthe) [etc]... 11, rue Le Peletier... avril 1876" ;
+    dcterms:provenance <https://niccolomolinati.github.io/AroundImpressionism/organization/Bibliothèque-nationale-de-France>,
+        <https://niccolomolinati.github.io/AroundImpressionism/organization/europeana> ;
+    dcterms:spatial "11, RUE LE PELETIER,11, - PARIS" ;
+    dcterms:temporal """De 10 heures à 5 heures - AVRIL 1876
+        """ ;
+    owl:sameAs <https://gallica.bnf.fr/ark:/12148/btv1b8618484c>,
+        <https://www.europeana.eu/en/item/794/ark__12148_btv1b8618484c> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page2> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/cover> ;
+    rdfs:label "page2" ;
+    schema:text """
+     /n 
+   """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page27> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/extra> ;
+    rdfs:label "page27" ;
+    schema:text """
+    /n 
+  """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page5> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/preface> ;
+    rdfs:label "page5" ;
+    schema:text """
+         /n CATALOGUE /n 
+         /n DE LA 2·
+             /n EXPOSITION
+             /n DE PEINTURE
+         /n 
+         /n PAR MM. /n 
+         /n Béliard-Legros-Pissaro-Bureau-Lepic-Renoir-Caillebotte-Levert
+        -Rouart-Cals-Millet(J.-B.)-Sisler-Degas-Monet(Claude)-Tillot
+        -Desboutin-Morist(Berthe)-François(Jacques)-Ottin fils
+         /n 
+         /n De 10 heures à 5 heures
+             /n 11, RUE LE PELETIER,11,
+             /n PARIS
+            __________
+             /n AVRIL 1876
+         /n 
+   """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page6> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/preface> ;
+    rdfs:label "page6" ;
+    schema:text """
+     /n 
+   """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/text_type/handwritten/page1> schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page1> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/text_type/handwritten/page28> schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page28> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/text_type/handwritten/page3> schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page3> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/text_type/handwritten/page4> schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page4> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/--3·Rue-du-Mont·Cenis.--4·L-Observatiore-à-10-cent--5·Village-Kabyle.--6·D-un-Balcon.Soleil-couché--7·Entre-les-rues-des-Carrières-et-Marcadet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title """
+               3·Rue du Mont·Cenis.
+               4·L'Observatiore à 10 cent
+               5·Village Kabyle.
+               6·D'un Balcon.Soleil couché
+               7·Entre les rues des Carrières et Marcadet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/-3pièces:--1·Le-Parc.--2·Auvergne.--Appartient-à-And-Gill--3·De-la-rue-Ordener.--> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title """-3pièces:
+               1·Le Parc.
+               2·Auvergne.
+                 Appartient à And Gill
+               3·De la rue Ordener.
+       """ ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/1-Bords-de-l-Oise.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "1-Bords de l'Oise." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/10-Jouy-le-Comte,clair-de-lune.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "10-Jouy-le-Comte,clair de lune." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/100-Vue-prise-à-Buttier.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "100-Vue prise à Buttier." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/101-Le-Chemin-Vert-a-Noiseau.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "101-Le Chemin Vert a Noiseau." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/102-L-Ile-de-Vachereu(clair-de-lune).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "102-L'Ile de Vachereu(clair de lune)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/103-Effet-de-brouillard-en-mer.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "103-Effet de brouillard en mer." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/104-Etude-de-bateaux.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "104-Etude de bateaux." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/105-La-Plage-de-Berck.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "105-La Plage de Berck." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/106-Le-Christ-de-la-Plage-de-Bereck.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "106-Le Christ de la Plage de Bereck." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/107-Bateaux-de-la-baie-de-Somme.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "107-Bateaux de la baie de Somme." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/108-Un-Brisant.(Etude.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "108-Un Brisant.(Etude.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/109-La-Plage-de-Hourdel.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "109-La Plage de Hourdel." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/11-Château-de-Valmondois.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "11-Château de Valmondois." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/110-Le-Beaupré.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "110-Le Beaupré." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/111-Forcé!> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "111-Forcé!" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/112-Bateaux-de-la-plage-de-Berck.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "112-Bateaux de la plage de Berck." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/113-La-Bouée-N-2,baie-de-Somme.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "113-La Bouée N 2,baie de Somme." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/114-Clair-de-Lune-en-mer(Manche).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "114-Clair de Lune en mer(Manche)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/115-Effet-de-Soleil(Manche).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "115-Effet de Soleil(Manche)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/116-La-Plage-de-Cayeux.(Effet-de-nuit).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "116-La Plage de Cayeux.(Effet de nuit)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/117-Le-Halage-d-un-bateau.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "117-Le Halage d'un bateau." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/118-Un-Cabestan.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "118-Un Cabestan." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/119-Le-Voilier.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "119-Le Voilier." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/12-Entrée-de-village-à-Champagne,prèsl-Isle-Adam.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "12-Entrée de village à Champagne,prèsl'Isle-Adam." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/120-Bateau-à-sec.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "120-Bateau à sec." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/121-Le-Charpentier.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "121-Le Charpentier." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/122-La-Plage.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "122-La Plage." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/123-Le-Chantier-de-Cayeux.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "123-Le Chantier de Cayeux." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/124-Pompeï(5-Aquarelles-d-après-nature.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "124-Pompeï(5 Aquarelles d'après nature.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/125-Le-Quai-Sancte-Lucià-à-Naples.(Aquarelles.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "125-Le Quai Sancte Lucià à Naples.(Aquarelles.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/126-Filets.(2-Aquarelles.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "126-Filets.(2 Aquarelles.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/127-Barque-échouée.(Baie-de-Somme.)(2-Aquarelles.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "127-Barque échouée.(Baie de Somme.)(2 Aquarelles.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/128-Falaises-du-Tréport.(Aquarelle.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "128-Falaises du Tréport.(Aquarelle.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/129-Soleil-en-mer.-id.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "129-Soleil en mer.       id." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page15> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/13-Meules-au-clair-de-lune> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "13-Meules au clair de lune" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/130-L-Église-de-Cayeux.(Aquarelle.).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "130-L'Église de Cayeux.(Aquarelle.)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/131-Barque-Napolitaine.id.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "131-Barque Napolitaine.  id." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/132-Les-Souterrains-du-port-de-Naples.(Aquarelle.).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "132-Les Souterrains du port de Naples.(Aquarelle.)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/133-Fontaine-à-la-Cava,près-Naples.(Aquarelle.).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "133-Fontaine à la Cava,près Naples.(Aquarelle.)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/134-La-Ballade-des-Pendus.(Eau-forte.)--Appartient-à-M.Arsène-Houssaye..> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title """134-La Ballade des Pendus.(Eau-forte.)
+                   Appartient à M.Arsène Houssaye..""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/135-Croquis-Hollandais.(2-Cadres.Eaux-forte.).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "135-Croquis Hollandais.(2 Cadres.Eaux-forte.)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/136-Canal-en-Hollande,lever-de-Lune.(Eau-forte.).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "136-Canal en Hollande,lever de Lune.(Eau-forte.)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/137-Tête-de-Chien.-Epreuve-tirée-sur-plaque-sans-gravure..> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> ;
+    dc:title "137-Tête de Chien. Epreuve tirée sur plaque sans gravure.." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/138-Femme-gardant-les-Vaches.(Aquarelle.)--Appartient-à-M.Brame.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title """138-Femme gardant les Vaches.(Aquarelle.)
+               Appartient à M.Brame.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/139-La-Ferme.(Aquarelle.)--Appartient-à-M.Haro> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title """139-La Ferme.(Aquarelle.)
+               Appartient à M.Haro""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page16> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/14-Entrée-de-Nesles.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "14-Entrée de Nesles." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/141-Moulin-à-eau.(Aquarelle).--Appartient-à-M.Petit> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title """141-Moulin à eau.(Aquarelle).
+               Appartient à M.Petit""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/142-Coin-de-Ferme.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title "142-Coin de Ferme." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/143-Ferme-du-Fays.--Appartient-à-M.Haro> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title """143-Ferme du Fays.
+               Appartient à M.Haro""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/144-Le-Pré--Appartient-à-M.Petit.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title """144-Le Pré
+               Appartient à M.Petit.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/145-Le-Verger.(Sépia.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title "145-Le Verger.(Sépia.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/146-Le-Labourage.(Sépia-rehaussée.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title "146-Le Labourage.(Sépia rehaussée.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/147-La-Fermière.(Aquarelle.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title "147-La Fermière.(Aquarelle.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/148-Le-Petit-bras.(Argenteuil).--Appartient-à-M.Faure> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """148-Le Petit bras.(Argenteuil).
+               Appartient à M.Faure""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/149-La-Seine-à-Argenteuil.--Appartient-à-M.Faure> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """149-La Seine à Argenteuil.
+               Appartient à M.Faure""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/15-Avoines-dans-la-plaine-de-Champagne.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "15-Avoines dans la plaine de Champagne." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/150-Le-Chemin-d-Epinay.Effet-de-neige.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "150-Le Chemin d'Epinay.Effet de neige." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/151-La-Plage-à-Sainte-Adresse.--Appartient-à-M.Faure.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """151-La Plage à Sainte-Adresse.
+               Appartient à M.Faure.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/152-Le-Pont-du-Chemin-de-fer(Argenteuil.)--Appartient-à-M.Faure.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """152-Le Pont du Chemin de fer(Argenteuil.)
+               Appartient à M.Faure.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/153-Japonnerie.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "153-Japonnerie." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/154-La-Prairie.--Appartient-à-M.Faure.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """154-La Prairie.
+               Appartient à M.Faure.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/155-Le-petie-Genevilliers.--Appartient-à-M.Faure.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """155-Le petie Genevilliers.
+               Appartient à M.Faure.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/156-Le-Pont-d-Argenteuil.--Appartient-à-M.Faure.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """156-Le Pont d'Argenteuil.
+               Appartient à M.Faure.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/157-La-Berge-d-Argenteuil.--Appartient-à-M.Faure.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """157-La Berge d'Argenteuil.
+               Appartient à M.Faure.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/158-Effet-d-Automne.--Appartient-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """158-Effet d'Automne.
+               Appartient à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/159-Les-Dalhias.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "159-Les Dalhias." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/16-Usine-à-Pacy-sur-Eure> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "16-Usine à Pacy-sur-Eure" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/160-Les-Bateaux-d-Argenteuil.--Appartient-à-M.Faure.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title """160-Les Bateaux d'Argenteuil.
+               Appartient à M.Faure.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/161-La-Promenade.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "161-La Promenade." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/162-Paneau-décoratif.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "162-Paneau décoratif." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/163-Le-Printemps.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "163-Le Printemps." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/164-Les-Bains-de-la-Grenouillère.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "164-Les Bains de la Grenouillère." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/165-Bateaux-de-pêche.(Etude.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> ;
+    dc:title "165-Bateaux de pêche.(Etude.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/166-Au-Bal.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "166-Au Bal." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/167-Le-Lever.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "167-Le Lever." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page18> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/168-La-Toilette.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "168-La Toilette." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/169-Déjeûner-sur-l-herbe.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "169-Déjeûner sur l'herbe." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/17-Raboteurs-de-parquets.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "17-Raboteurs de parquets." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/170-Vue-du-Solent(Ile-de-Wight.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "170-Vue du Solent(Ile de Wight.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/171-West-Cowes,(Ile-de-Wight.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "171-West Cowes,(Ile de Wight.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/172-Le-Bateau-à-vapeur> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "172-Le Bateau à vapeur" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/173-Plage-de-Fécamp.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "173-Plage de Fécamp." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/174-Un-Chantier.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "174-Un Chantier." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/175-Un-Percher-de-Blanchisseuse.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "175-Un Percher de Blanchisseuse." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/176-Vue-d-Angletterre.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "176-Vue d'Angletterre." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/177-Vue-d-Angletterre.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "177-Vue d'Angletterre." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/178-Figure-de-Femme> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "178-Figure de Femme" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/179-Avant-d-un-Yacht.(Aquarelle.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "179-Avant d'un Yacht.(Aquarelle.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/18-Raboteurs-de-parquets.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "18-Raboteurs de parquets." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/180-Entrée-de-la-Midina.Ile-de-Wight.(Aquarelle.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "180-Entrée de la Midina.Ile de Wight.(Aquarelle.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/181-Vue-de-la-Tamise.(Aquarelle.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "181-Vue de la Tamise.(Aquarelle.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/182-Trois-dessins-au-pastel.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> ;
+    dc:title "182-Trois dessins au pastel." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/183-La-Maison-Bleue(Butte-Montmartre).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "183-La Maison Bleue(Butte Montmartre)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page19> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/184-Mont-Cassin.-Versant-sud.(Butte-Montmarte.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "184-Mont Cassin. Versant sud.(Butte Montmarte.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/185-En-plein-Soleil.Versant-sud.(Butte-Montmartre.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "185-En plein Soleil.Versant sud.(Butte Montmartre.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/186-Sur-le-Versant-nord.(Butte-Montmartre.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "186-Sur le Versant nord.(Butte Montmartre.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/187-Le-Plateau-de-la-Butte.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "187-Le Plateau de la Butte." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/188-La-Maison-Lorcinier.(Butte-Montm.)--Appartient-à-M.L...> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title """188-La Maison Lorcinier.(Butte Montm.)
+               Appartient à M.L...""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/189-La-rue-du-Mont-Cenis.(Butte-Montmartre.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "189-La rue du Mont-Cenis.(Butte Montmartre.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/19-Jeune-homme-jouant-du-piano.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "19-Jeune homme jouant du piano." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/190-Retraite-de-Russie.-Versant-ouest.(Butte-Montmarte.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "190-Retraite de Russie. Versant ouest.(Butte Montmarte.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/191-La-Maison-Rouge,l-Abreuvoir.(Butte-Montmartre.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "191-La Maison Rouge,l'Abreuvoir.(Butte Montmartre.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/192-Petite-rue-Saint-Denis.(Butte-Montmartre.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "192-Petite rue Saint-Denis.(Butte Montmartre.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/193-La-Tour-Solferino.(Butte-Montm.)--Appartient-à-Mme-O..> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title """193-La Tour Solferino.(Butte Montm.)
+                   Appartient à Mme O..""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/194-Au-Cimetière.B(utte-Montmartre.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title "194-Au Cimetière.B(utte Montmartre.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/195-7pièces:--1·Le-Sommet-Orage.---2·Le-Sommet.Brouillard-sur-Paris.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> ;
+    dc:title """195-7pièces:
+               1·Le Sommet Orage. 
+               2·Le Sommet.Brouillard sur Paris.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page20> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/197-Printemps.Soleil-couchant.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "197-Printemps.Soleil couchant." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/198-Un-Etang-à-Montfoucault.(Mayenne.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "198-Un Etang à Montfoucault.(Mayenne.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/199-Gelée-blanche-avec-Brouillard.-Appartenant-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title """199-Gelée blanche avec Brouillard.
+              Appartenant à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/2-Bords-de-l-Oise.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "2-Bords de l'Oise." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/20-Jeune-homme-à-sa-fenêtre> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "20-Jeune homme à sa fenêtre" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/200-Neige.Coteaux-de-l-Hermitage(Pon·toise).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "200-Neige.Coteaux de l'Hermitage(Pon·toise)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/201-Ferme-à-Monttoucault.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "201-Ferme à Monttoucault." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/202-Les-Coteaux-du-Choux.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "202-Les Coteaux du Choux." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/203-Le-Berger.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "203-Le Berger." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page21> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/204-Effet-de-neige-à-Pontoise.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "204-Effet de neige à Pontoise." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/205-Effet-de-Neige.Coteaux-d-Osny.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "205-Effet de Neige.Coteaux d'Osny." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/206-Les-Jardins-de-l-Hermitage.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "206-Les Jardins de l'Hermitage." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/207-Paysanne.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "207-Paysanne." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/208-Village-de-l-Hermitage.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> ;
+    dc:title "208-Village de l'Hermitage." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/209-Femme-et-Enfant--Appartient-à-M.Poupin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """209-Femme et Enfant
+               Appartient à M.Poupin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/21-Déjeûner> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "21-Déjeûner" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/210-Sur-la-Terrasse.--Appartient-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """210-Sur la Terrasse.
+               Appartient à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/211-Portrait.--Appartient-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """211-Portrait.
+               Appartient à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/212-Etude.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title "212-Etude." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/213-Liseuse.--Appartient-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """213-Liseuse.
+               Appartient à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/214-Tête-d-Homme.--Appartient-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """214-Tête d'Homme.
+               Appartient à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/215-Portait-d-Enfant.--Appartient-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """215-Portait d'Enfant.
+               Appartient à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page22> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/216-Tête-d-Enfant.--Appartient-à-M.Choquet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """216-Tête d'Enfant.
+               Appartient à M.Choquet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/217-Tête-de-Femme.--Appartient-à-M.Dollfus.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """217-Tête de Femme.
+               Appartient à M.Dollfus.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/218-portrait-de-M(lle)-S...> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title "218-portrait de M(lle) S..." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/219-Femme-au-Piano.--Appartient-à-M.Poupin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """219-Femme au Piano.
+               Appartient à M.Poupin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/22-Jardin> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "22-Jardin" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/220-Portrait-de-M.M...---Appartient-à-M.Dollfus.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """220-Portrait de M.M... 
+               Appartient à M.Dollfus.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/221-Déjeûner-chez-Fournaise.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title "221-Déjeûner chez Fournaise." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/222-Portrait-de-Mme-D...> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title "222-Portrait de Mme D..." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/223-Portrait-de-jeune-Fille.--Appartient-à-M.-Legrand.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """223-Portrait de jeune Fille.
+               Appartient à M. Legrand.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/224-Frédéric-Bazille,peintre-tué-à-Beaunela-Rolande.--Appartient-à-M.Manet.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title """224-Frédéric Bazille,peintre tué à Beaunela-Rolande.
+               Appartient à M.Manet.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/225-La-Promenade.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title "225-La Promenade." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/226-Portait-de-Me-H...(Pastel.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> ;
+    dc:title "226-Portait de Me H...(Pastel.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/227-Chemin-bordé-d-Arbres.(Normandie.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "227-Chemin bordé d'Arbres.(Normandie.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page23> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/228-Ancien-Manior.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "228-Ancien Manior." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/229-Vieille-Ferme-bretonne.(Etude.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "229-Vieille Ferme bretonne.(Etude.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/23-Jaedin> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "23-Jaedin" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/230-Bords-de-l-Indre.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "230-Bords de l'Indre." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/231-Chemin-des-Fourneaux(Melun.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "231-Chemin des Fourneaux(Melun.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/232-Vue-de-Melun.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "232-Vue de Melun." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/233-Enfants-bretons.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "233-Enfants bretons." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/234-Manoir-de-Graffard.(Encre-de-Chine.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "234-Manoir de Graffard.(Encre de Chine.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/235-Dans-un-Parc.(Sépia.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "235-Dans un Parc.(Sépia.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/236-Chaumières.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> ;
+    dc:title "236-Chaumières." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/237-Effet-de-Neige.--Appartient-à-M.Martin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """237-Effet de Neige.
+               Appartient à M.Martin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/238-Avenue-de-l-Abreuvior.-Effet-de-Givre.--Appartient-à-M.Martin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """238-Avenue de l'Abreuvior. Effet de Givre.
+               Appartient à M.Martin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/239-Une-Route-axu-environs-de-Marly.--Appartient-à-M.Martin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """239-Une Route axu environs de Marly.
+               Appartient à M.Martin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page24> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/24-Après-déjeûner.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> ;
+    dc:title "24-Après déjeûner." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/240-L-Abreauvoir-de-Marly,en-hiver.--Appartient-à-M.Martin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """240-L'Abreauvoir de Marly,en hiver.
+               Appartient à M.Martin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/241-Le-Bord-d-un-Ruisseau.Environs-de-Paris.--Appartient-à-M.Durand-> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """241-Le Bord d'un Ruisseau.Environs de Paris.
+               Appartient à M.Durand """ ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/242-Le-Chemin-des-Aqueducs.--Appartient-à-M.Martin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """242-Le Chemin des Aqueducs.
+               Appartient à M.Martin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/243-Route-de-Saint-Germain.---Appartient-à-M.Martin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """243-Route de Saint-Germain. 
+               Appartient à M.Martin.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/244-Inondations-à-Port-Marly.---Appartient-à-M.Legrand.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> ;
+    dc:title """244-Inondations à Port-Marly. 
+               Appartient à M.Legrand.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/245-Le-Chaos-de-Villers.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "245-Le Chaos de Villers." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/246-Vue-prise-des-hauteurs-du-Chaos,à-Villers.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "246-Vue prise des hauteurs du Chaos,à Villers." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/247-Falaises,à-Villers.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "247-Falaises,à Villers." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/248-Falaises-à-Marée-basse.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "248-Falaises à Marée basse." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page25> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/249-Manoir-de-Graffard.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "249-Manoir de Graffard." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page26> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/25-Soleil-couchant> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "25-Soleil couchant" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/250-Rpchers-et-Plage-à-Villers.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "250-Rpchers et Plage à Villers." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page26> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/251-Plaine-de-Barbizon.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "251-Plaine de Barbizon." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page26> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/252-Intérieur-du-Bas-Bréau.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> ;
+    dc:title "252-Intérieur du Bas-Bréau." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page26> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/26-Ferme-de-Saint-Siméon,Printemps.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "26-Ferme de Saint-Siméon,Printemps." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/27-Sous-les-arbres.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "27-Sous les arbres." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/28-Madelaine.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "28-Madelaine." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/29-Femme-allaitant-son-enfant.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "29-Femme allaitant son enfant." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/3-Fabriques-au-bord-de-l-Oise.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "3-Fabriques au bord de l'Oise." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/30-A-la-Ferme-de-Saint-Siméon.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "30-A la Ferme de Saint-Siméon." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/31-Cour-à-Honfleur.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "31-Cour à Honfleur." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/32-La-Leçon.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "32-La Leçon." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/33-Portait-de-Mme-X...(Dessin).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "33-Portait de Mme X...(Dessin)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/34-Led-Enfants-du-pêcheur-id.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "34-Led Enfants du pêcheur id." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/35-Le-Repas-frugal-id.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> ;
+    dc:title "35-Le Repas frugal id." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/36-Portraits-dan-un-bureau(Nouvelle-Orléns).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "36-Portraits dan un bureau(Nouvelle-Orléns)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/37-Examen-de-danse.Appatementa-à-> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "37-Examen de danse.Appatementa à " ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/38-Portait-de-Mr-E.M...> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "38-Portait de Mr E.M..." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page9> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/39-Portait-de-femme(ébauche)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "39-Portait de femme(ébauche)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/4-Rue-de-village.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "4-Rue de village." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/40-Cour-d-une-maison(Nouvelle-Orléans,esquisse).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "40-Cour d'une maison(Nouvelle-Orléans,esquisse)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/40-La-Chaumière.(Aquarelle.)--Appartient-à-M.Petit> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> ;
+    dc:title """40-La Chaumière.(Aquarelle.)
+               Appartient à M.Petit""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page17> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/41-Blanchisseuses> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "41-Blanchisseuses" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/42-Ebauche-de-portrait(pastel)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "42-Ebauche de portrait(pastel)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/43-Portrait,le-soir> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "43-Portrait,le soir" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/44-Salle-de-danse.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "44-Salle de danse." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/45-id.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "45-    id." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/46-Portrait> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "46-Portrait" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/47-Coulisses> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "47-Coulisses" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/48--id> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "48-   id" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/49-Blanchisseuse(silhouette).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "49-Blanchisseuse(silhouette)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/5-La-rue-de-Chaufour-à-Etampes.-Effet-de-neige.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "5-La rue de Chaufour à Etampes. Effet de neige." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/50-Blanchisseuse-portant-du-linge.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "50-Blanchisseuse portant du linge." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/51-Divers-croqius-de-danseuses.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "51-Divers croqius de danseuses." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/52-Dans-un-Café> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "52-Dans un Café" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/53-Orchestre.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "53-Orchestre." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/54-Blanchisseuse.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "54-Blanchisseuse." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/55-Femme-sa-lavant-le-soir.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "55-Femme sa lavant le soir." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/56-Petites-Paysannes-se-baignant-à-la-mer-vers-le-soir.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "56-Petites Paysannes se baignant à la mer vers le soir." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/57-Modiste> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "57-Modiste" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page10> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/58-Portrait> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "58-Portrait" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/59-Blanchisseuse(dessin).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> ;
+    dc:title "59-Blanchisseuse(dessin)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/6-Port-de-Granville.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "6-Port de Granville." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/60-Chanteurs-des-rues.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "60-Chanteurs des rues." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/61-Etude-d-Enfant.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "61-Etude d'Enfant." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/62-Portrait-de-M.F..> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "62-Portrait de M.F.." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/63-Les-Premiers-pas.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "63-Les Premiers pas." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/64-Le-Violoncelliste.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "64-Le Violoncelliste." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/65-Tête-d-Etude.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "65-Tête d'Etude." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/66-Portrait> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "66-Portrait" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/67-Portrait-et-Etudes.(Gravure-à-la-pointe-sèche)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "67-Portrait et Etudes.(Gravure à la pointe sèche)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/68-Portrait-et-Etudes.id> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "68-Portrait et Etudes.  id" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/69-Portrait-et-Etudes.id> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "69-Portrait et Etudes.  id" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/7-Rue-de-l-Hermitage,-à-Pontoise.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "7-Rue de l'Hermitage, à Pontoise." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/70-Portrait-id> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "70-Portrait             id" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/71-Portrait-id> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "71-Portrait             id" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/72-Portrait-id> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> ;
+    dc:title "72-Portrait             id" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page11> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/73-Raisins.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "73-Raisins." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/74-Prunes.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "74-Prunes." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/75-Estamko-de-tabacco-à-l-Alhambra> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "75-Estamko de tabacco à l'Alhambra" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/76-Portrait-de-Mme-M...> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "76-Portrait de Mme M..." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/77-Le-Dessert> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "77-Le Dessert" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/78-Roses-jaunes-et-Raisin.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "78-Roses jaunes et Raisin." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/79-Raisin-et-Grenades.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "79-Raisin et Grenades." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/8-Rue-Dorée,-à-Pontoise.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "8-Rue Dorée, à Pontoise." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page7> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/80-Raisin-et-Grenade.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "80-Raisin et Grenade." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/81-Les-Baigeuses.--La-Procession.--Ambulance.--Promenade.(Pointe-sèche.)--Tribunal.--Cours-de-Médecine.--Chantres-Espagnols.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEGROS-Alphonse> ;
+    dc:title """81-Les Baigeuses.
+                 La Procession.
+                 Ambulance.
+                 Promenade.(Pointe sèche.)
+                 Tribunal.
+                 Cours de Médecine.
+                 Chantres Espagnols.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/82-La-Morte.(Premier-état-avant-la-pointe-sèche.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEGROS-Alphonse> ;
+    dc:title "82-La Morte.(Premier état avant la pointe sèche.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page12> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/83-Les-Vagabonds.--La-Confrérie-de-la-Sainte-Vierge---Près-de-la-Cheminée--Paysaga.(Pointe-sèche.)--Deux-Lithographies--Portrait-de-M.Barbey-d-Aurevilly.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title """83-Les Vagabonds.
+                 La Confrérie de la Sainte-Vierge 
+                 Près de la Cheminée
+                 Paysaga.(Pointe sèche.)
+                 Deux Lithographies
+                 Portrait de M.Barbey d'Aurevilly.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/84-Lutrin> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "84-Lutrin" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/85-Portrait-de-petite-Fille.(Pointe-sèche.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "85-Portrait de petite Fille.(Pointe sèche.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/86-Bonhomme-Misère.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "86-Bonhomme Misère." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/87-Portrait-de-l-historien-Carlysle.(Premier-état.)> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "87-Portrait de l'historien Carlysle.(Premier état.)" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/88-Tête-de-Vieillard.(Pointe-sèche.)-Femmes-de-Boulogne.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title """88-Tête de Vieillard.(Pointe sèche.)
+              Femmes de Boulogne.""" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/89-Grand-Paysage,coup-de-vent.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "89-Grand Paysage,coup de vent." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/9-Route-de-Champagne,prèsl-Isle-Adam.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> ;
+    dc:title "9-Route de Champagne,prèsl'Isle-Adam." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page8> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/90-L-Homme-au-Mouton.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "90-L'Homme au Mouton." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/91-La-Communion.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "91-La Communion." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/92-Paysage.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> ;
+    dc:title "92-Paysage." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/93-Vue-de-Portrieux.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "93-Vue de Portrieux." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/94-Plage-de-Portrieux.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "94-Plage de Portrieux." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page13> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/95-Port-de-Portrieux.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "95-Port de Portrieux." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/96-La-Jetée-de-Portrieux.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "96-La Jetée de Portrieux." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/97-Bords-de-l-Essonne.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "97-Bords de l'Essonne." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/98-Maison-à-Vaulry(Limousin).> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "98-Maison à Vaulry(Limousin)." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artwork/99-La-Ferme-de-Saint-Marc.> dc:creator <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> ;
+    dc:title "99-La Ferme de Saint-Marc." ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/page/page14> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/organization/Bibliothèque-nationale-de-France> rdfs:label "Bibliothèque nationale de France" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/organization/europeana> rdfs:label "europeana" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page1> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/cover> ;
+    rdfs:label "page1" ;
+    schema:text """
+     /n Impressionnisme  /n 
+      /n Avril 1876 /n 
+      /n 
+      /n CATALOGUE /n 
+      /n Prix:50 centimes. /n 
+  """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page28> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/cover> ;
+    rdfs:label "page28" ;
+    schema:text """
+    /n 
+   19.9.03
+    /n 
+  """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page3> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/preface> ;
+    rdfs:label "page3" ;
+    schema:text """
+     /n 1876 /n 
+     /n CATALOGUE /n 
+     /n 
+     /n 
+     /n Ré .h . v 
+         646
+        (1876)
+     /n 
+   """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page4> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/preface> ;
+    rdfs:label "page4" ;
+    schema:text """
+     /n ___________________________________________
+      /n PARIS.IMPRIMERIE ALCAN-LÉVY,61,RUE DE LAFAYETTE.
+     /n 
+   """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page_type/extra> rdfs:label "extra" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/LEGROS-Alphonse> foaf:name "LEGROS Alphonse" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page_type/cover> rdfs:label "cover" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page26> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page26" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/249-Manoir-de-Graffard.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/250-Rpchers-et-Plage-à-Villers.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/251-Plaine-de-Barbizon.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/252-Intérieur-du-Bas-Bréau.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page_type/preface> rdfs:label "preface" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page21> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page21" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/-3pièces:--1·Le-Parc.--2·Auvergne.--Appartient-à-And-Gill--3·De-la-rue-Ordener.-->,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/197-Printemps.Soleil-couchant.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/198-Un-Etang-à-Montfoucault.(Mayenne.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/199-Gelée-blanche-avec-Brouillard.-Appartenant-à-M.Choquet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/200-Neige.Coteaux-de-l-Hermitage(Pon·toise).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/201-Ferme-à-Monttoucault.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/202-Les-Coteaux-du-Choux.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/203-Le-Berger.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page7> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page7" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/1-Bords-de-l-Oise.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/2-Bords-de-l-Oise.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/3-Fabriques-au-bord-de-l-Oise.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/4-Rue-de-village.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/5-La-rue-de-Chaufour-à-Etampes.-Effet-de-neige.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/6-Port-de-Granville.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/7-Rue-de-l-Hermitage,-à-Pontoise.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/8-Rue-Dorée,-à-Pontoise.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave> foaf:name "CAILLEBOTTE Gustave" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page25> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page25" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/240-L-Abreauvoir-de-Marly,en-hiver.--Appartient-à-M.Martin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/241-Le-Bord-d-un-Ruisseau.Environs-de-Paris.--Appartient-à-M.Durand->,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/242-Le-Chemin-des-Aqueducs.--Appartient-à-M.Martin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/243-Route-de-Saint-Germain.---Appartient-à-M.Martin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/244-Inondations-à-Port-Marly.---Appartient-à-M.Legrand.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/245-Le-Chaos-de-Villers.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/246-Vue-prise-des-hauteurs-du-Chaos,à-Villers.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/247-Falaises,à-Villers.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/248-Falaises-à-Marée-basse.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY> foaf:name "SYSLEY" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/TILLOT-Charles> foaf:name "TILLOT Charles" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page12> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page12" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/LEGROS-Alphonse>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/73-Raisins.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/74-Prunes.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/75-Estamko-de-tabacco-à-l-Alhambra>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/76-Portrait-de-Mme-M...>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/77-Le-Dessert>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/78-Roses-jaunes-et-Raisin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/79-Raisin-et-Grenades.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/80-Raisin-et-Grenade.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/81-Les-Baigeuses.--La-Procession.--Ambulance.--Promenade.(Pointe-sèche.)--Tribunal.--Cours-de-Médecine.--Chantres-Espagnols.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/82-La-Morte.(Premier-état-avant-la-pointe-sèche.)> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page16> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page16" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/130-L-Église-de-Cayeux.(Aquarelle.).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/131-Barque-Napolitaine.id.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/132-Les-Souterrains-du-port-de-Naples.(Aquarelle.).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/133-Fontaine-à-la-Cava,près-Naples.(Aquarelle.).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/134-La-Ballade-des-Pendus.(Eau-forte.)--Appartient-à-M.Arsène-Houssaye..>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/135-Croquis-Hollandais.(2-Cadres.Eaux-forte.).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/136-Canal-en-Hollande,lever-de-Lune.(Eau-forte.).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/137-Tête-de-Chien.-Epreuve-tirée-sur-plaque-sans-gravure..>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/138-Femme-gardant-les-Vaches.(Aquarelle.)--Appartient-à-M.Brame.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/139-La-Ferme.(Aquarelle.)--Appartient-à-M.Haro> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT> foaf:name "LEVERT" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe> foaf:name "CALS Felix-Adilphe" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste> foaf:name "MILLET Jean-Baptiste" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri> foaf:name "ROUART Stanislas-Henri" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page13> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page13" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/83-Les-Vagabonds.--La-Confrérie-de-la-Sainte-Vierge---Près-de-la-Cheminée--Paysaga.(Pointe-sèche.)--Deux-Lithographies--Portrait-de-M.Barbey-d-Aurevilly.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/84-Lutrin>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/85-Portrait-de-petite-Fille.(Pointe-sèche.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/86-Bonhomme-Misère.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/87-Portrait-de-l-historien-Carlysle.(Premier-état.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/88-Tête-de-Vieillard.(Pointe-sèche.)-Femmes-de-Boulogne.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/89-Grand-Paysage,coup-de-vent.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/90-L-Homme-au-Mouton.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/91-La-Communion.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/92-Paysage.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/93-Vue-de-Portrieux.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/94-Plage-de-Portrieux.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page22> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page22" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/204-Effet-de-neige-à-Pontoise.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/205-Effet-de-Neige.Coteaux-d-Osny.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/206-Les-Jardins-de-l-Hermitage.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/207-Paysanne.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/208-Village-de-l-Hermitage.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/209-Femme-et-Enfant--Appartient-à-M.Poupin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/210-Sur-la-Terrasse.--Appartient-à-M.Choquet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/211-Portrait.--Appartient-à-M.Choquet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/212-Etude.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/213-Liseuse.--Appartient-à-M.Choquet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/214-Tête-d-Homme.--Appartient-à-M.Choquet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/215-Portait-d-Enfant.--Appartient-à-M.Choquet.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page23> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page23" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/216-Tête-d-Enfant.--Appartient-à-M.Choquet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/217-Tête-de-Femme.--Appartient-à-M.Dollfus.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/218-portrait-de-M(lle)-S...>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/219-Femme-au-Piano.--Appartient-à-M.Poupin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/220-Portrait-de-M.M...---Appartient-à-M.Dollfus.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/221-Déjeûner-chez-Fournaise.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/222-Portrait-de-Mme-D...>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/223-Portrait-de-jeune-Fille.--Appartient-à-M.-Legrand.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/224-Frédéric-Bazille,peintre-tué-à-Beaunela-Rolande.--Appartient-à-M.Manet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/225-La-Promenade.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/226-Portait-de-Me-H...(Pastel.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/227-Chemin-bordé-d-Arbres.(Normandie.)> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page24> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page24" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/ROUART-Stanislas-Henri>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/SYSLEY>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/228-Ancien-Manior.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/229-Vieille-Ferme-bretonne.(Etude.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/230-Bords-de-l-Indre.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/231-Chemin-des-Fourneaux(Melun.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/232-Vue-de-Melun.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/233-Enfants-bretons.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/234-Manoir-de-Graffard.(Encre-de-Chine.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/235-Dans-un-Parc.(Sépia.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/236-Chaumières.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/237-Effet-de-Neige.--Appartient-à-M.Martin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/238-Avenue-de-l-Abreuvior.-Effet-de-Givre.--Appartient-à-M.Martin.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/239-Une-Route-axu-environs-de-Marly.--Appartient-à-M.Martin.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page17> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page17" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/MILLET-Jean-Baptiste>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/141-Moulin-à-eau.(Aquarelle).--Appartient-à-M.Petit>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/142-Coin-de-Ferme.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/143-Ferme-du-Fays.--Appartient-à-M.Haro>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/144-Le-Pré--Appartient-à-M.Petit.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/145-Le-Verger.(Sépia.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/146-Le-Labourage.(Sépia-rehaussée.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/147-La-Fermière.(Aquarelle.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/148-Le-Petit-bras.(Argenteuil).--Appartient-à-M.Faure>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/149-La-Seine-à-Argenteuil.--Appartient-à-M.Faure>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/150-Le-Chemin-d-Epinay.Effet-de-neige.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/151-La-Plage-à-Sainte-Adresse.--Appartient-à-M.Faure.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/152-Le-Pont-du-Chemin-de-fer(Argenteuil.)--Appartient-à-M.Faure.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/40-La-Chaumière.(Aquarelle.)--Appartient-à-M.Petit> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page20> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page20" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/--3·Rue-du-Mont·Cenis.--4·L-Observatiore-à-10-cent--5·Village-Kabyle.--6·D-un-Balcon.Soleil-couché--7·Entre-les-rues-des-Carrières-et-Marcadet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/184-Mont-Cassin.-Versant-sud.(Butte-Montmarte.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/185-En-plein-Soleil.Versant-sud.(Butte-Montmartre.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/186-Sur-le-Versant-nord.(Butte-Montmartre.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/187-Le-Plateau-de-la-Butte.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/188-La-Maison-Lorcinier.(Butte-Montm.)--Appartient-à-M.L...>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/189-La-rue-du-Mont-Cenis.(Butte-Montmartre.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/190-Retraite-de-Russie.-Versant-ouest.(Butte-Montmarte.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/191-La-Maison-Rouge,l-Abreuvoir.(Butte-Montmartre.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/192-Petite-rue-Saint-Denis.(Butte-Montmartre.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/193-La-Tour-Solferino.(Butte-Montm.)--Appartient-à-Mme-O..>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/194-Au-Cimetière.B(utte-Montmartre.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/195-7pièces:--1·Le-Sommet-Orage.---2·Le-Sommet.Brouillard-sur-Paris.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN> foaf:name "DESBOUTIN" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/PISSARRO-Camille> foaf:name "PISSARRO Camille" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page9> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page9" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/CALS-Felix-Adilphe>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/25-Soleil-couchant>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/26-Ferme-de-Saint-Siméon,Printemps.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/27-Sous-les-arbres.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/28-Madelaine.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/29-Femme-allaitant-son-enfant.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/30-A-la-Ferme-de-Saint-Siméon.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/31-Cour-à-Honfleur.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/32-La-Leçon.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/33-Portait-de-Mme-X...(Dessin).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/34-Led-Enfants-du-pêcheur-id.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/35-Le-Repas-frugal-id.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/36-Portraits-dan-un-bureau(Nouvelle-Orléns).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/37-Examen-de-danse.Appatementa-à->,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/38-Portait-de-Mr-E.M...> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page11> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page11" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/DESBOUTIN>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/58-Portrait>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/59-Blanchisseuse(dessin).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/60-Chanteurs-des-rues.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/61-Etude-d-Enfant.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/62-Portrait-de-M.F..>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/63-Les-Premiers-pas.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/64-Le-Violoncelliste.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/65-Tête-d-Etude.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/66-Portrait>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/67-Portrait-et-Etudes.(Gravure-à-la-pointe-sèche)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/68-Portrait-et-Etudes.id>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/69-Portrait-et-Etudes.id>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/70-Portrait-id>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/71-Portrait-id>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/72-Portrait-id> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page18> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page18" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/153-Japonnerie.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/154-La-Prairie.--Appartient-à-M.Faure.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/155-Le-petie-Genevilliers.--Appartient-à-M.Faure.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/156-Le-Pont-d-Argenteuil.--Appartient-à-M.Faure.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/157-La-Berge-d-Argenteuil.--Appartient-à-M.Faure.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/158-Effet-d-Automne.--Appartient-à-M.Choquet.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/159-Les-Dalhias.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/160-Les-Bateaux-d-Argenteuil.--Appartient-à-M.Faure.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/161-La-Promenade.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/162-Paneau-décoratif.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/163-Le-Printemps.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/164-Les-Bains-de-la-Grenouillère.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/165-Bateaux-de-pêche.(Etude.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/166-Au-Bal.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/167-Le-Lever.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page19> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page19" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/168-La-Toilette.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/169-Déjeûner-sur-l-herbe.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/170-Vue-du-Solent(Ile-de-Wight.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/171-West-Cowes,(Ile-de-Wight.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/172-Le-Bateau-à-vapeur>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/173-Plage-de-Fécamp.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/174-Un-Chantier.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/175-Un-Percher-de-Blanchisseuse.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/176-Vue-d-Angletterre.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/177-Vue-d-Angletterre.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/178-Figure-de-Femme>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/179-Avant-d-un-Yacht.(Aquarelle.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/180-Entrée-de-la-Midina.Ile-de-Wight.(Aquarelle.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/181-Vue-de-la-Tamise.(Aquarelle.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/182-Trois-dessins-au-pastel.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/183-La-Maison-Bleue(Butte-Montmartre).> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page8> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page8" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/CAILLEBOTTE-Gustave>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/10-Jouy-le-Comte,clair-de-lune.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/11-Château-de-Valmondois.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/12-Entrée-de-village-à-Champagne,prèsl-Isle-Adam.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/13-Meules-au-clair-de-lune>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/14-Entrée-de-Nesles.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/15-Avoines-dans-la-plaine-de-Champagne.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/16-Usine-à-Pacy-sur-Eure>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/17-Raboteurs-de-parquets.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/18-Raboteurs-de-parquets.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/19-Jeune-homme-jouant-du-piano.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/20-Jeune-homme-à-sa-fenêtre>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/21-Déjeûner>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/22-Jardin>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/23-Jaedin>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/24-Après-déjeûner.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/9-Route-de-Champagne,prèsl-Isle-Adam.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page14> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page14" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artist/LEVERT>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/100-Vue-prise-à-Buttier.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/101-Le-Chemin-Vert-a-Noiseau.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/102-L-Ile-de-Vachereu(clair-de-lune).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/103-Effet-de-brouillard-en-mer.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/104-Etude-de-bateaux.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/105-La-Plage-de-Berck.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/106-Le-Christ-de-la-Plage-de-Bereck.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/107-Bateaux-de-la-baie-de-Somme.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/108-Un-Brisant.(Etude.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/109-La-Plage-de-Hourdel.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/110-Le-Beaupré.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/111-Forcé!>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/95-Port-de-Portrieux.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/96-La-Jetée-de-Portrieux.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/97-Bords-de-l-Essonne.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/98-Maison-à-Vaulry(Limousin).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/99-La-Ferme-de-Saint-Marc.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/BELIAER-E> foaf:name "BELIAER E",
+        "BELIAER-E" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/OTTIN-fils-Leon-Auguste> foaf:name "OTTIN fils Leon-Auguste" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page15> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page15" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/112-Bateaux-de-la-plage-de-Berck.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/113-La-Bouée-N-2,baie-de-Somme.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/114-Clair-de-Lune-en-mer(Manche).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/115-Effet-de-Soleil(Manche).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/116-La-Plage-de-Cayeux.(Effet-de-nuit).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/117-Le-Halage-d-un-bateau.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/118-Un-Cabestan.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/119-Le-Voilier.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/120-Bateau-à-sec.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/121-Le-Charpentier.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/122-La-Plage.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/123-Le-Chantier-de-Cayeux.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/124-Pompeï(5-Aquarelles-d-après-nature.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/125-Le-Quai-Sancte-Lucià-à-Naples.(Aquarelles.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/126-Filets.(2-Aquarelles.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/127-Barque-échouée.(Baie-de-Somme.)(2-Aquarelles.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/128-Falaises-du-Tréport.(Aquarelle.)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/129-Soleil-en-mer.-id.> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/MORISOT-Berthe> foaf:name "MORISOT Berthe" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> rdfs:label """Béliard-Legros-Pissaro-Bureau-Lepic-Renoir-Caillebotte-Levert
+        -Rouart-Cals-Millet(J.-B.)-Sisler-Degas-Monet(Claude)-Tillot
+        -Desboutin-Morist(Berthe)-François(Jacques)-Ottin fils
+        """ .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page/page10> a <https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> ;
+    rdfs:label "page10" ;
+    dc:subject <https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/39-Portait-de-femme(ébauche)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/40-Cour-d-une-maison(Nouvelle-Orléans,esquisse).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/41-Blanchisseuses>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/42-Ebauche-de-portrait(pastel)>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/43-Portrait,le-soir>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/44-Salle-de-danse.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/45-id.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/46-Portrait>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/47-Coulisses>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/48--id>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/49-Blanchisseuse(silhouette).>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/50-Blanchisseuse-portant-du-linge.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/51-Divers-croqius-de-danseuses.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/52-Dans-un-Café>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/53-Orchestre.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/54-Blanchisseuse.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/55-Femme-sa-lavant-le-soir.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/56-Petites-Paysannes-se-baignant-à-la-mer-vers-le-soir.>,
+        <https://niccolomolinati.github.io/AroundImpressionism/artwork/57-Modiste> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/FRANCOIS-Jacques> foaf:name "FRANCOIS Jacques" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/MONET-Claude> foaf:name "MONET Claude" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/RENOIR-Pierre-Auguste> foaf:name "RENOIR Pierre-Auguste" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/page_type/designation-list> rdfs:label "designation-list" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/DEGAS-Edgard> foaf:name "DEGAS Edgard" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/artist/LEPIC> foaf:name "LEPIC" ;
+    schema:isPartOf <https://niccolomolinati.github.io/AroundImpressionism/group/impressionists> .
+
