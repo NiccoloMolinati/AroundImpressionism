@@ -32,7 +32,6 @@
                 </div>
                 <div>
                     <h2>Index:</h2>
-                    <!--<xsl:variable name="uri" select="'https://niccolomolinati.github.io/AroundImpressionism/'"/>  -->
                     <xsl:for-each select="//tei:div[@facs]">
                         <xsl:variable name="pageN" select="@facs"/>
                         <a href="#{$pageN}"><xsl:value-of select="@facs"/>: <xsl:value-of select="@type"/></a><br/>
