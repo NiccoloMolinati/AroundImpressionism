@@ -187,7 +187,7 @@ input, select, textarea {
 		font-size: smaller;
 	}
 
-	h1, h2, h4, h5, h6 {
+	h1, h2, h5, h6 {
 		color: #83b0ff;
 		text-shadow: 0 0 1px #3e4094, 0 0 1px #3e4094;
 		font-weight: bold;
@@ -232,7 +232,8 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
-	h1, h2, h3{
+	h1, h2, h3, h4{
+		font-weight: 700;
 		color: #261c3e;
 		border-color: #261c3e;
 	}
