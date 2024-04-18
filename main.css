@@ -26,6 +26,8 @@ section, summary, time, mark, audio, video {
 
 .uslol{
 	max-width: 130px;
+	display: inline-block;
+	margin-right: 10px; 
 }
 
 article, aside, details, figcaption, figure,
