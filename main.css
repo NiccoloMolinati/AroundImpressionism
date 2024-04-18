@@ -31,7 +31,7 @@ section, summary, time, mark, audio, video {
 }
 
 .same-size-image {
-    width: 240px; 
+    max-width: 240px; 
     height: auto; 
 }
 
