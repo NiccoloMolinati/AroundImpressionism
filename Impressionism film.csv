@@ -1,0 +1,18 @@
+﻿Subject,Predicate,Object
+Impressionism film,rdf:type,Film
+Impressionism film,dcterms:creator,Patrician Films
+Impressionism film,dcterms:creator,Doug Bailey Films
+Impressionism film,dcterms:publisher,Hollywood/ Calif. : Bailey Films
+Impressionism film,dcterms:title,Impressionism
+Impressionism film,dcterms:subject,Impressionism
+Impressionism film,dcterms:accessRights,true 
+Impressionism film,crm:P1_is_identified_by,impressionism_201703
+Impressionism film,fabio:hasLanguage,English
+Impressionism film,rico:creationDate,1957
+Impressionism film,media:framerate,24
+Impressionism film,schema:datePublished,31.03.2017 17:59
+Impressionism film,bibo:lccn,fia57000192
+Impressionism film,bf:identifier,2766238
+Impressionism film,dcterms:contributor,Internet Archive
+Impressionism film,crm:P1_is_identified_by,IA1301207
+Impressionism film,cdesc:hasCreationLocation,Hollywood/ Calif. the USA

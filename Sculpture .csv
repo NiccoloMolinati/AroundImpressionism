@@ -1,0 +1,7 @@
+﻿Subject,Predicate,Object
+the sculpture,rdf:type,Sculpture
+the sculpture,dcterms:title,Der Maler Renoir
+the sculpture,rico:creationDate,1932-1935
+the sculpture,rico:location,Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg/ Frankfurt am Main
+the sculpture,cdesc:hasCreationLocation,Frankfurt am Main/Germany
+the sculpture,dcterms:creator,Aristide Maillol

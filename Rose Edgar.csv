@@ -1,0 +1,16 @@
+﻿Subject,Predicate,Object
+"Rose ""Edgar Degas""",rdf:type,Plant
+"Rose ""Edgar Degas""",cdesc:hasGenus,Rosa
+"Rose ""Edgar Degas""",rdf:type,Rosa Cultivar
+"Rose ""Edgar Degas""",fabio:has_format,pink
+"Rose ""Edgar Degas""",fabio:has_format,yellow
+"Rose ""Edgar Degas""",dcterms:creator,Guy Delbard
+"Rose ""Edgar Degas""",crm:P1_is_identified_by,UNITS - UNITS_Dryades - 88561
+"Rose ""Edgar Degas""",dbo:namedAfter,Edgar Degas
+"Rose ""Edgar Degas""",schema:provider,University of Trieste
+"Rose ""Edgar Degas""",schema:provider,Italy
+"Rose ""Edgar Degas""",schema:provider,Archive of digital images of vascular plants from projects Dryades
+"Rose ""Edgar Degas""",rico:location,Italy
+"Rose ""Edgar Degas""",dbnt:dateCaptured,17/06/2011
+"Rose ""Edgar Degas""",rico:creationDate,1994
+"Rose ""Edgar Degas""",cdesc:hasCreationLocation,France 

@@ -1,0 +1,14 @@
+﻿Subject,Predicate,Object
+Photo of the tomb,rdf:type,photograph
+Photo of the tomb,fabio:hasLanguage,French
+Photo of the tomb,fabio:has_format,photograph
+Photo of the tomb,dcterms:creator,Agencie de presse Maurisse
+Photo of the tomb,dcterms:subject,Death of Monet
+Photo of the tomb,dcterms:subject,Claude Monet
+Photo of the tomb,schema:provider,France
+Photo of the tomb,schema:provider,BNF
+Photo of the tomb,crm:P43_has_dimension,height 13cm
+Photo of the tomb,crm:P43_has_dimension,width 18cm
+Photo of the tomb,dcterms:subject,Giverny Church Cemetery
+Photo of the tomb,rico:creationDate,12/11/1926
+Photo of the tomb,cdesc:hasCreationLocation,Giverny;France

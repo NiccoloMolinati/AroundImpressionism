@@ -1,0 +1,407 @@
+@base <https://github.com/NiccoloMolinati/AroundImpressionism> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cdesc: <https://w3id.org/arco/ontology/context-description/> .
+@prefix cevent: <https://w3id.org/arco/ontology/cultural-event/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms:: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tl: <http://purl.org/NET/c4dm/timeline.owl#/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbnt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix fabio: <http://purl.org/spar/fabio> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix media: <http://purl.org/media> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://www.deutschefotothek.de/documents/obj/70222045> <cdeschasCreationLocation> "Giverny/ France" ;
+    crm:P1_is_identifies_by "70222045" ;
+    dcterms:creator "UNKNOWN" ;
+    dcterms:subject <http://viaf.org/viaf/24605513>,
+        <https://dbpedia.org/page/Category:Portraits> ;
+    fabio:has_format schema:Photograph ;
+    dcterms:title "Portrait of Monet" ;
+    rdf:type schema:Photograph ;
+    rico:creationDate "1910" ;
+    schema:provider <http://viaf.org/viaf/128500931>,
+        <http://viaf.org/viaf/189116956> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/MonetTomb> rdfs:label "Tomb of Monet" ;
+    rico:creationDate "december 10th, 1926" ;
+    rico:location <https://niccolomolinati.github.io/AroundImpressionism/Object/GivernyChurch> .
+
+<https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[DG1912/210]&showtype=record> cdesc:hasCreationLocation "Frankreich/France" ;
+    crm:P43_has_dimension <https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[DG1912/210]&showtype=recordheight>,
+        <https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[DG1912/210]&showtype=recordwidth> ;
+    dcterms:title "Das Hutanstecken" ;
+    fabio:has_identifier "DG1912/210" ;
+    dcterms:title "the hat pinning (painting)" ;
+    rdf:type schema:Photograph ;
+    rico:creationDate "1898" ;
+    rico:location "Albertina/ Wien/ Österreich" .
+
+<http://catalogue.bnf.fr/ark:/12148/btv1b8618484c> bibo:pages "24" ;
+    cdesc:hasCreationLocation "Paris France" ;
+    cevent:eventTimeLocation "April 1876" ;
+    crm:P43_has_dimension <http://catalogue.bnf.fr/ark:/12148/btv1b8618484cheight> ;
+    dcterms:creator <https://dbpedia.org/page/Category:French_Impressionist_painters> ;
+    dcterms:subject <http://viaf.org/viaf/24605513>,
+        <http://viaf.org/viaf/29643005>,
+        <https://dbpedia.org/page/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Event/SecondExhibition>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Person/Degas> ;
+    fabio:hasLanguage "French" ;
+    fabio:has_format <http://purl.org/spar/fabio/CriticalEdition> ;
+    foaf:height "18 cm" ;
+    dcterms:title "Catalogue of the second exhibition" ;
+    rdf:type dcmitype:Text ;
+    rico:creationDate "April 15th 1876" ;
+    schema:provider <http://viaf.org/viaf/137156173>,
+        <http://viaf.org/viaf/264091107> .
+
+<http://catalogue.bnf.fr/ark:/12148/btv1b8618484cheight> rdfs:label "height 18cm" .
+
+<http://catalogue.bnf.fr/ark:/12148/cb40499435z> cdesc:hasCreationLocation "Giverny;France" ;
+    crm:P43_has_dimension <http://catalogue.bnf.fr/ark:/12148/cb40499435zheight>,
+        <http://catalogue.bnf.fr/ark:/12148/cb40499435zwidth> ;
+    dcterms:creator <http://viaf.org/viaf/143525780> ;
+    dcterms:subject <http://viaf.org/viaf/24605513>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Event/DeathOfMonet>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Object/GivernyChurch> ;
+    fabio:hasLanguage "French" ;
+    fabio:has_format schema:Photograph ;
+    dcterms:title "Photo of the tomb" ;
+    rdf:type schema:Photograph ;
+    rico:creationDate "12/11/1926" ;
+    schema:provider <http://viaf.org/viaf/137156173>,
+        <http://viaf.org/viaf/264091107> .
+
+<http://catalogue.bnf.fr/ark:/12148/cb40499435zheight> rdfs:label "height 13cm" .
+
+<http://catalogue.bnf.fr/ark:/12148/cb40499435zwidth> rdfs:label "width 18cm" .
+
+<http://id.bildindex.de/thing/0001567049> cdesc:hasCreationLocation "Frankfurt am Main/Germany" ;
+    dcterms:creator <http://viaf.org/viaf/14228> ;
+    dcterms:title "Der Maler Renoir" ;
+    dcterms:title "the sculpture" ;
+    rdf:type schema:Sculpture ;
+    rico:creationDate "1932-1935" ;
+    rico:location "Deutsches Dokumentationszentrum für Kunstgeschichte - Bildarchiv Foto Marburg/ Frankfurt am Main" .
+
+<http://viaf.org/viaf/128500931> rdfs:label "Deutsches Fotothek" .
+
+<http://viaf.org/viaf/140745829> rdfs:label "Giverny" ;
+    owl:sameAs <http://vocab.getty.edu/page/tgn/7009209> .
+
+<http://viaf.org/viaf/14228> rdfs:label "Aristide Maillol" ;
+    rico:isAuthorOf <http://id.bildindex.de/thing/0001567049> .
+
+<http://viaf.org/viaf/143525780> rdfs:label "Agencie de presse Maurisse" ;
+    rico:isAuthorOf <http://catalogue.bnf.fr/ark:/12148/cb40499435z> .
+
+<http://viaf.org/viaf/145362602> rdfs:label "University of Trieste" .
+
+<http://viaf.org/viaf/152361066> rdfs:label "Italy" .
+
+<http://viaf.org/viaf/159803619> foaf:firstName "George" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Braziller" .
+
+<http://viaf.org/viaf/184369877> rdfs:label "State of Arts: Claude Monet and the \"Birth\" of Impressionism" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismPodcast> .
+
+<http://viaf.org/viaf/186435690> rdfs:label "Apple iTunes" .
+
+<http://viaf.org/viaf/189116956> rdfs:label "Germany" .
+
+<http://viaf.org/viaf/263723254> rdfs:label "Doug Bailey Films" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismFilm> .
+
+<http://viaf.org/viaf/2657495> foaf:firstName "Maurice" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Ravel" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismMusic> .
+
+<http://viaf.org/viaf/29643005> bio:agent <https://niccolomolinati.github.io/AroundImpressionism/Event/BirthOfRenoir>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Event/DeathOfRenoir> ;
+    madsrdf:occupation <https://dbpedia.org/ontology/Artist> ;
+    foaf:firstName "Pierre-Auguste" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Renoir" .
+
+<http://viaf.org/viaf/310631717> foaf:firstName "Sarah C." ;
+    foaf:gender "Female" ;
+    foaf:lastName "Schafer" .
+
+<http://viaf.org/viaf/315996621> foaf:firstName "Tina" ;
+    foaf:gender "Female" ;
+    foaf:lastName "Rivers Ryan" .
+
+<http://viaf.org/viaf/42025164> foaf:firstName "Manuel" ;
+    foaf:gender "Male" ;
+    foaf:lastName "De Falla" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismMusic> .
+
+<http://viaf.org/viaf/5009565> foaf:firstName "Meyer" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Schapiro" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBook> .
+
+<http://viaf.org/viaf/51874944> foaf:firstName "Frederick" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Delius" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismMusic> .
+
+<http://viaf.org/viaf/6219636> foaf:firstName "Claude" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Debussy" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismMusic> .
+
+<http://viaf.org/viaf/89801735> foaf:firstName "Ralph" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Vaughan Williams" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismMusic> .
+
+<https://dbpedia.org/ontology/ClassicalMusicComposition> rdfs:label " Classical" .
+
+<https://dbpedia.org/page/Category:Bibliography> rdfs:label "Bibliography" .
+
+<https://dbpedia.org/page/Category:Portraits> rdfs:label "portrait" .
+
+<https://dbpedia.org/page/Category:Visual_arts_media> rdfs:label "Visual Arts" .
+
+<https://dbpedia.org/page/Cultivar> rdfs:label "Rosa Cultivar" .
+
+<https://dbpedia.org/page/Pink> rdfs:label "pink" .
+
+<https://dbpedia.org/page/Rose> a cdesc:Genus ;
+    rdfs:label "Rosa" .
+
+<https://dbpedia.org/page/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son> a schema:Painting ;
+    rdfs:label "Woman with a parasol" ;
+    dcterms:creator <http://viaf.org/viaf/24605513> ;
+    rico:creadionDate "1875" .
+
+<https://dbpedia.org/page/Yellow> rdfs:label "yellow" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/BaileyFilms> rdfs:label "Hollywood/ Calif. : Bailey Films" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/BirthOfDegas> rdfs:label "Birth of Degas" ;
+    bio:date "july 19th 1834" ;
+    bio:place "Paris, France" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/BirthOfMonet> rdfs:label "Birth of Monet" ;
+    bio:date "november 14th, 1840" ;
+    bio:place "Paris, France" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/BirthOfRenoir> rdfs:label "Birth of Renoir" ;
+    bio:date "february 25th 1841" ;
+    bio:place "Limoges, France" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/DeathOfDegas> rdfs:label "Death of Degas" ;
+    bio:date "september 27th 1917" ;
+    bio:place "Paris, France" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/DeathOfRenoir> rdfs:label "Death of Renoir" ;
+    bio:date "december 3rd 1919" ;
+    bio:place "Cagnes-Sur-Mere, France" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/FirstExhibition> rdfs:label "First exhibition" ;
+    tl:atDuration "april 15th-may15th 1874" ;
+    dcterms:creator <https://dbpedia.org/page/Category:French_Impressionist_painters> ;
+    cevent:eventTimeLocation "april 15th-may 15th 1874, 35 Boulevard des Capucines, Paris" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/PatriciainFilms> rdfs:label "Patrician Films" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismFilm> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/SecondExhibition> rdfs:label "Second exhibition" ;
+    dcterms:creator <https://dbpedia.org/page/Category:French_Impressionist_painters> ;
+    cevent:eventTimeLocation "April 1876, Durand-Ruel gallery, 11 rue Le Peletier, Paris" ;
+    cevent:hasPreviousSituation <https://niccolomolinati.github.io/AroundImpressionism/Event/FirstExhibition> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/DegasRose> cdesc:hasCreationLocation "France " ;
+    cdesc:hasGenus <https://dbpedia.org/page/Rose> ;
+    crm:P1_is_identifies_by "UNITS - UNITS_Dryades - 88561" ;
+    dbnt:dateCaptured "17/06/2011" ;
+    dbo:namedAfter "Edgar Degas" ;
+    dcterms:creator <https://niccolomolinati.github.io/AroundImpressionism/Person/Delbard> ;
+    fabio:has_format <https://dbpedia.org/page/Pink>,
+        <https://dbpedia.org/page/Yellow> ;
+    dcterms:title "Rose \"Edgar Degas\"" ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q28869614> ;
+    rdf:type <https://dbpedia.org/page/Cultivar>,
+        cdesc:BiologicalTaxon ;
+    rico:creationDate "1994" ;
+    rico:location "Italy" ;
+    schema:provider <http://viaf.org/viaf/145362602>,
+        <http://viaf.org/viaf/152361066>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Object/PlantsArchive> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBook> bibo:pages "359 p." ;
+    cdesc:hasCreationLocation "New York/ the the USA" ;
+    crm:P1_is_identifies_by "IT\\ICCU\\AQ1\\0035947" ;
+    crm:P43_has_dimension <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBookdepth>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBookheight>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBookwidth> ;
+    dcterms:creator <http://viaf.org/viaf/5009565> ;
+    dcterms:publisher <http://viaf.org/viaf/159803619> ;
+    dcterms:title "Impressionism : reflections and perceptions / Meyer Schapiro" ;
+    fabio:hasISBN "[ISBN-10] :0807614203",
+        "[ISBN-13] :978-0807614204" ;
+    fabio:hasLanguage "English" ;
+    fabio:hasPublicationPlace "New York/ the USA" ;
+    fabio:has_format <http://purl.org/spar/fabio/CriticalEdition> ;
+    dcterms:title "Impressionism : reflections and perceptions" ;
+    rdfs:label <https://dbpedia.org/page/Category:Bibliography> ;
+    rdf:type dcmitype:Text,
+        schema:Book ;
+    rico:creationDate "1997" ;
+    schema:weight "4.03 pounds" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBookdepth> rdfs:label "depth 1.4inch" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBookheight> rdfs:label "height 10.7inch" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismBookwidth> rdfs:label "width 8.8inch" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismPodcast> dcterms:contributor <http://viaf.org/viaf/310631717>,
+        <http://viaf.org/viaf/315996621> ;
+    dcterms:creator <http://viaf.org/viaf/184369877> ;
+    dcterms:extent "33 minutes 31 seconds" ;
+    dcterms:publisher <http://viaf.org/viaf/186435690> ;
+    dcterms:subject <https://dbpedia.org/page/Category:Visual_arts_media> ;
+    fabio:hasLanguage "English" ;
+    dcterms:title "Claude Monet and the \"Birth\" of Impressionism" ;
+    rdf:type schema:AudioObject,
+        schema:MusicRecording ;
+    rico:creationDate "Monday/Oct. 06/2014" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/PlantsArchive> rdfs:label "Archive of digital images of vascular plants from projects Dryades" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Person/Degas> bio:agent <https://niccolomolinati.github.io/AroundImpressionism/Event/BirthOfDegas>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Event/DeathOfDegas> ;
+    madsrdf:occupation <https://dbpedia.org/ontology/Artist> ;
+    owl:sameAs <http://viaf.org/viaf/41863744> ;
+    foaf:firstName "Edgar" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Degas" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Person/Delbard> foaf:firstName "Guy" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Delbard" ;
+    rico:isAuthorOf <https://niccolomolinati.github.io/AroundImpressionism/Object/DegasRose> .
+
+<https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[DG1912/210]&showtype=recordheight> rdfs:label "height 87.5cm" .
+
+<https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[DG1912/210]&showtype=recordwidth> rdfs:label "width 61.1cm" .
+
+schema:CreativeWork skos:narrowerTransitive dcmitype:Text,
+        schema:MusicRecording .
+
+schema:Movie rdfs:label "Film" .
+
+schema:Painting rdfs:label "painting" ;
+    skos:broader schema:CreativeWork .
+
+schema:Sculpture rdfs:label "Sculpture" .
+
+cdesc:BiologicalTaxon rdfs:label "Plant" .
+
+cdesc:Genus rdfs:label "Genus" .
+
+<http://purl.org/spar/fabio/CriticalEdition> rdfs:label "print book" .
+
+<http://viaf.org/viaf/137156173> rdfs:label "BNF" .
+
+<http://viaf.org/viaf/264091107> rdfs:label "France" .
+
+<http://viaf.org/viaf/5838148574318224430007> rdfs:label "Internet Archive" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Event/DeathOfMonet> rdfs:label "Death of Monet" ;
+    bio:date "december 5th, 1926" ;
+    bio:place "Giverny, France" .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/GivernyChurch> rdfs:label "Giverny Church",
+        "Giverny Church Cemetery" ;
+    rico:location <http://viaf.org/viaf/140745829> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismFilm> bf:identifier "2766238" ;
+    bibo:lccn "fia57000192" ;
+    cdesc:hasCreationLocation "Hollywood/ Calif. the USA" ;
+    crm:P1_is_identifies_by "IA1301207",
+        "impressionism_201703" ;
+    dcterms:accessRights "true " ;
+    dcterms:contributor <http://viaf.org/viaf/5838148574318224430007> ;
+    dcterms:creator <http://viaf.org/viaf/263723254>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Event/PatriciainFilms> ;
+    dcterms:publisher <https://niccolomolinati.github.io/AroundImpressionism/Event/BaileyFilms> ;
+    dcterms:subject <https://dbpedia.org/page/Category:Impressionism> ;
+    dcterms:title "Impressionism" ;
+    fabio:hasLanguage "English" ;
+    dcterms:title "Impressionism film" ;
+    media:framerate "24" ;
+    rdf:type schema:Movie ;
+    rico:creationDate "1957" ;
+    schema:datePublished "31.03.2017 17:59" .
+
+schema:AudioObject rdfs:label "Podcast" .
+
+schema:Book rdfs:label "Book" .
+
+dcmitype:Text rdfs:label "Text" ;
+    skos:narrower schema:Book .
+
+<https://dbpedia.org/page/Category:Impressionism> rdfs:label "Impressionism" ;
+    dcterms:creator <https://dbpedia.org/page/Category:French_Impressionist_painters> .
+
+schema:MusicRecording rdfs:label "Audio" ;
+    skos:related schema:AudioObject .
+
+<http://viaf.org/viaf/24605513> bio:agent <https://niccolomolinati.github.io/AroundImpressionism/Event/BirthOfMonet>,
+        <https://niccolomolinati.github.io/AroundImpressionism/Event/DeathOfMonet> ;
+    madsrdf:occupation <https://dbpedia.org/ontology/Artist> ;
+    foaf:firstName "Claude" ;
+    foaf:gender "Male" ;
+    foaf:lastName "Monet" .
+
+<https://dbpedia.org/ontology/Artist> rdfs:label "Artist" ;
+    foaf:isPrimaryTopicOf <https://dbpedia.org/page/Category:Impressionism> .
+
+<https://dbpedia.org/page/Category:French_Impressionist_painters> a <https://dbpedia.org/ontology/Artist> ;
+    rdfs:label "Artists of the 2nd exhibition" ;
+    rico:isAuthorOf <http://catalogue.bnf.fr/ark:/12148/btv1b8618484c> .
+
+<https://niccolomolinati.github.io/AroundImpressionism/Object/ImpressionismMusic> <cdeschasCreationLocation> "Italy" ;
+    crm:P1_is_identifies_by "IA1196412",
+        "IA1627302",
+        "IA1683902",
+        "lp_the-carnegie-hall-library-of-classical-mus_various-claude-debussy-frederick-delius-ma" ;
+    dcterms:accessRights "true " ;
+    dcterms:contributor <http://viaf.org/viaf/5838148574318224430007> ;
+    dcterms:creator <http://viaf.org/viaf/2657495>,
+        <http://viaf.org/viaf/42025164>,
+        <http://viaf.org/viaf/51874944>,
+        <http://viaf.org/viaf/6219636>,
+        <http://viaf.org/viaf/89801735>,
+        "Various" ;
+    dcterms:subject <https://dbpedia.org/ontology/ClassicalMusicComposition>,
+        <https://dbpedia.org/page/Category:Impressionism> ;
+    dcterms:title "The Carnegie Hall Library Of Classical Music (Impressionism 1900-1930)" ;
+    fabio:hasLanguage " English",
+        " French",
+        " Spanish" ;
+    fabio:hasPublicationPlace "Italy" ;
+    dcterms:title "The Carnegie Hall Library Of Classical Music" ;
+    rdf:type schema:MusicRecording ;
+    rico:creationDate "1975" .
+
+schema:Photograph rdfs:label "Color lithograph",
+        "photograph" .
+

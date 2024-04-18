@@ -1,0 +1,9 @@
+﻿Subject,Predicate,Object
+the hat pinning (painting),dcterms:title,Das Hutanstecken
+the hat pinning (painting),rdf:type,Color lithograph
+the hat pinning (painting),rico:creationDate,1898
+the hat pinning (painting),crm:P43_has_dimension,height 87.5cm
+the hat pinning (painting),crm:P43_has_dimension,width 61.1cm
+the hat pinning (painting),fabio:has_identifier,DG1912/210
+the hat pinning (painting),rico:location,Albertina/ Wien/ Österreich
+the hat pinning (painting),cdesc:hasCreationLocation,Frankreich/France

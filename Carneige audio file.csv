@@ -1,0 +1,23 @@
+﻿Subject,Predicate,Object
+The Carnegie Hall Library Of Classical Music,rdf:type,Audio
+The Carnegie Hall Library Of Classical Music,dcterms:creator,Various
+The Carnegie Hall Library Of Classical Music,dcterms:creator,Claude Debussy
+The Carnegie Hall Library Of Classical Music,dcterms:creator,Frederick Delius
+The Carnegie Hall Library Of Classical Music,dcterms:creator,Ralph Vaughan Williams
+The Carnegie Hall Library Of Classical Music,dcterms:creator,Maurice Ravel
+The Carnegie Hall Library Of Classical Music,dcterms:creator,Manuel De Falla
+The Carnegie Hall Library Of Classical Music,fabio:hasPublicationPlace,Italy
+The Carnegie Hall Library Of Classical Music,dcterms:title,The Carnegie Hall Library Of Classical Music (Impressionism 1900-1930)
+The Carnegie Hall Library Of Classical Music,dcterms:accessRights,true 
+The Carnegie Hall Library Of Classical Music,fabio:hasLanguage, English
+The Carnegie Hall Library Of Classical Music,fabio:hasLanguage, French
+The Carnegie Hall Library Of Classical Music,fabio:hasLanguage, Spanish
+The Carnegie Hall Library Of Classical Music,crm:P1_is_identified_by,lp_the-carnegie-hall-library-of-classical-mus_various-claude-debussy-frederick-delius-ma
+The Carnegie Hall Library Of Classical Music,rico:creationDate,1975
+The Carnegie Hall Library Of Classical Music,crm:P1_is_identified_by,IA1683902
+The Carnegie Hall Library Of Classical Music,crm:P1_is_identified_by,IA1627302
+The Carnegie Hall Library Of Classical Music,crm:P1_is_identified_by,IA1196412
+The Carnegie Hall Library Of Classical Music,dcterms:contributor,Internet Archive
+The Carnegie Hall Library Of Classical Music,dcterms:subject, Classical
+The Carnegie Hall Library Of Classical Music,dcterms:subject,Impressionism
+The Carnegie Hall Library Of Classical Music,cdesc:hasCreationLocation,Italy

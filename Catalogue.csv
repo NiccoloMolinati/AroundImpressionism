@@ -1,0 +1,18 @@
+﻿Subject,Predicate,Object
+Catalogue of the second exhibition,rdf:type,Text
+Catalogue of the second exhibition,dcterms:subject,Woman with a parasol
+Catalogue of the second exhibition,fabio:hasLanguage,French
+Catalogue of the second exhibition,bibo:pages,24
+Catalogue of the second exhibition,crm:P43_has_dimension,height 18cm
+Catalogue of the second exhibition,foaf:height,18 cm
+Catalogue of the second exhibition,fabio:has_format,print book
+Catalogue of the second exhibition,dcterms:subject,Second exhibition
+Catalogue of the second exhibition,schema:provider,France
+Catalogue of the second exhibition,schema:provider,BNF
+Catalogue of the second exhibition,dcterms:subject,Claude Monet
+Catalogue of the second exhibition,dcterms:subject,Edgar Degas
+Catalogue of the second exhibition,dcterms:subject,Pierre-Auguste Renoir
+Catalogue of the second exhibition,cdesc:hasCreationLocation,Paris France
+Catalogue of the second exhibition,dcterms:creator,Artists of the 2nd exhibition
+Catalogue of the second exhibition,cevent:eventTimeLocation,April 1876
+Catalogue of the second exhibition,rico:creationDate,April 15th 1876

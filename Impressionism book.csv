@@ -1,0 +1,20 @@
+﻿Subject,Predicate,Object
+Impressionism : reflections and perceptions,rdf:type,Book
+Impressionism : reflections and perceptions,rdf:type,Text
+Impressionism : reflections and perceptions,dcterms:title,Impressionism : reflections and perceptions / Meyer Schapiro
+Impressionism : reflections and perceptions,fabio:hasLanguage,English
+Impressionism : reflections and perceptions,rico:creationDate,1997
+Impressionism : reflections and perceptions,dcterms:publisher,George Braziller
+Impressionism : reflections and perceptions,fabio:hasPublicationPlace,New York/ the USA
+Impressionism : reflections and perceptions,rdfs:label,Bibliography
+Impressionism : reflections and perceptions,crm:P1_is_identified_by,IT\ICCU\AQ1\0035947
+Impressionism : reflections and perceptions,fabio:hasISBN,[ISBN-13] :978-0807614204
+Impressionism : reflections and perceptions,fabio:hasISBN,[ISBN-10] :0807614203
+Impressionism : reflections and perceptions,fabio:has_format,print book
+Impressionism : reflections and perceptions,bibo:pages,359 p.
+Impressionism : reflections and perceptions,dcterms:creator,Meyer Schapiro
+Impressionism : reflections and perceptions,schema:weight,4.03 pounds
+Impressionism : reflections and perceptions,crm:P43_has_dimension,height 10.7inch
+Impressionism : reflections and perceptions,crm:P43_has_dimension,width 8.8inch
+Impressionism : reflections and perceptions,crm:P43_has_dimension,depth 1.4inch
+Impressionism : reflections and perceptions,cdesc:hasCreationLocation,New York/ the the USA

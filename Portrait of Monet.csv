@@ -1,0 +1,11 @@
+﻿Subject,Predicate,Object
+Portrait of Monet,rdf:type,photograph
+Portrait of Monet,dcterms:subject,portrait
+Portrait of Monet,dcterms:subject,Claude Monet
+Portrait of Monet,fabio:has_format,photograph
+Portrait of Monet,crm:P1_is_identified_by,70222045
+Portrait of Monet,dcterms:creator,UNKNOWN
+Portrait of Monet,schema:provider,Germany
+Portrait of Monet,schema:provider,Deutsches Fotothek
+Portrait of Monet,cdesc:hasCreationLocation,Giverny/ France
+Portrait of Monet,rico:creationDate,1910
