@@ -230,6 +230,11 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
+	.outputhtml{
+		color: #261c3e;
+		border-color: #261c3e;
+	}
+
 	h3 {
 		font-size: 1.1em;
 	}
