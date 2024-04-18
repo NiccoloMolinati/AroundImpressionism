@@ -72,24 +72,24 @@
 							<tr><th>WHAT</th></tr>
 							<tr><td>Title</td><td>dc:title</td><td>1.1 Proper title</td><td>1.2 Title</td><td>FullScientificNameString</td><td>Title</td><td>TIT2</td><td>dc:title/dc:alternative</td></tr>
 							<tr><td>Type</td><td>dc:type</td><td>0.2 Media type</td><td>1.4 Level of description</td><td>HigherTaxa</td><td>enclosure ... type = ... </td><td>TCON</td><td>dc:type</td></tr>
-							<tr><td>Subject</td><td>dc:subject</td><td>7.10.2 Note providing a summary/ 7.5 Note on material description"</td><td></td><td></td><td></td><td></td><td></td></tr>
-							<tr><td>Format</td>dc:format<td>01. Content Form</td><td>4.4 Physical characteristics and technical requirements</td><td>//</td><td><enclosure ... format = ... /></td><td>TFLT (file type)</td><td>dc:format</td><td></td></tr>
-							<tr><td>Language</td>dc:language<td></td><td>7.1.2 Note on nature, scope, form, purpose or language </td><td>4.3. Language</td><td>//</td><td><language></td><td>TLAN</td><td>dc:language</td></tr>
-							<tr><td>Duration</td><td>dc:sizeOrDuration</td><td>5.1 Extent</td><td>1.5 Extent and medium of the unit of description (quantity, bulk, or size)</td><td>//</td><td><enclosure ... length = ... /></td><td>TLEN</td><td>dcterms:extent</td></tr>
-							<tr><td>Identifier</td><td>dc:identifier</td><td>8.1 Resource Identifier</td><td>1.1 Reference code(s)</td><td><Identifiers></td><td><guid></td><td>UFID (Unique File Identifier)</td><td>dc:identifier</td></tr>
+							<tr><td>Subject</td><td>dc:subject</td><td>7.10.2 Note providing a summary/ 7.5 Note on material description"</td><td>3.1 Scope and content</td><td><ScientificName><FullScientificNameString>/Botanical/ScientificName</td><td>category/subject</td><td>TALB (album)</td><td>dc:subject</td></tr>
+							<tr><td>Format</td>dc:format<td>01. Content Form</td><td>4.4 Physical characteristics and technical requirements</td><td>//</td><td>enclosure ... format = ... /</td><td>TFLT (file type)</td><td>dc:format</td><td>dc:format</td></tr>
+							<tr><td>Language</td>dc:language<td></td><td>7.1.2 Note on nature, scope, form, purpose or language </td><td>4.3. Language</td><td>//</td><td>language</td><td>TLAN</td><td>dc:language</td></tr>
+							<tr><td>Duration</td><td>dc:sizeOrDuration</td><td>5.1 Extent</td><td>1.5 Extent and medium of the unit of description (quantity, bulk, or size)</td><td>//</td><td>enclosure ... length = ... /</td><td>TLEN</td><td>dcterms:extent</td></tr>
+							<tr><td>Identifier</td><td>dc:identifier</td><td>8.1 Resource Identifier</td><td>1.1 Reference code(s)</td><td><Identifiers></td><td>guid</td><td>UFID (Unique File Identifier)</td><td>dc:identifier</td></tr>
 							<tr><th>WHO</th></tr>
-							<tr><td>Creator</td><td>dc:creator</td><td>1.4 Statement of responsibility relating to title</td><td>2.1 Name of creator(s)</td><td><Botanical><AuthorTeam></Botanical></td><td><author></td><td>TPE1 (artist)</td><td>dc:creator</td></tr>
-							<tr><td>Publisher</td><td>dc:publisher</td><td>4.2 Name of publisher, producer and/or distributor</td><td>2.2 Administrative / Biographical history</td><td>//</td><td><publisher></td><td>TPUB</td><td>dc:publisher</td></tr>
-							<tr><td>Information regarding ownership/conservation</td><td>dc:provenance</td><td>7.8.2 Note on binding (no specific one for on in the list)</td><td>2.3 Archival history</td><td><Matadata>/<Botanical><AuthorTeam></Botanical>/<SourceInstitutionID></td><td><description></td><td>TXXX (custom!)</td><td>dc:provenance</td></tr>
-							<tr><td>Entity mediating the resource</td><td>dc:mediator</td><td>7.2.4.1 Note on relationship to other resources</td><td>2.3 Archival history</td><td><TechnicalContacts><ContentContancts><SourceInstitutionID></td><td><description></td><td>TXXX (custom!)</td><td>dcterms:mediator</td></tr>
+							<tr><td>Creator</td><td>dc:creator</td><td>1.4 Statement of responsibility relating to title</td><td>2.1 Name of creator(s)</td><td>Botanical/AuthorTeam/Botanical</td><td><author></td><td>TPE1 (artist)</td><td>dc:creator</td></tr>
+							<tr><td>Publisher</td><td>dc:publisher</td><td>4.2 Name of publisher, producer and/or distributor</td><td>2.2 Administrative / Biographical history</td><td>//</td><td>publisher</td><td>TPUB</td><td>dc:publisher</td></tr>
+							<tr><td>Information regarding ownership/conservation</td><td>dc:provenance</td><td>7.8.2 Note on binding (no specific one for on in the list)</td><td>2.3 Archival history</td><td>Matadata/Botanical/AuthorTeam/Botanical/SourceInstitutionID</td><td>description</td><td>TXXX (custom!)</td><td>dc:provenance</td></tr>
+							<tr><td>Entity mediating the resource</td><td>dc:mediator</td><td>7.2.4.1 Note on relationship to other resources</td><td>2.3 Archival history</td><td>TechnicalContacts/ContentContancts/SourceInstitutionID</td><td>description</td><td>TXXX (custom!)</td><td>dcterms:mediator</td></tr>
 							<tr><td>Contributor</td><td>dc:contributor</td><td>1.4 Statement of responsibility relating to title</td><td>2.1 Name of creator(s)</td><td>//</td><td><dc:creator></td><td>TCOM</td><td>dc:contributor</td></tr>
 							<tr><th>WHEN</th></tr>
 							<tr><td>Date in which the resource has been accepted</td><td>dc:dateAccepted</td><td>7.4 Note on publication, production, distribution, etc.</td><td>1.3 Date(s)/7.3. Date(s) of descriptions</td><td><Gathering><DateTime></Gathering></td><td>//</td><td>dcterms:dateAccepted</td><td>TDRC</td></tr>
-							<tr><td>Date of creation/publication</td><td>dc:created</td><td>4.3 Date of publication, production and/or distribution</td><td>1.3 Date(s)</td><td><Gathering><DateTime></Gathering></td><td><pubDate></td><td>TYER / TDRC</td><td>dcterms:created, dcterms:issued</td></tr>
+							<tr><td>Date of creation/publication</td><td>dc:created</td><td>4.3 Date of publication, production and/or distribution</td><td>1.3 Date(s)</td><td><Gathering><DateTime></Gathering></td><td>pubDate</td><td>TYER / TDRC</td><td>dcterms:created, dcterms:issued</td></tr>
 							<tr><th>WHERE</th></tr>
 							<tr><td>Location of creation</td><td>dc:spatial/coverage</td><td>4.1 Place of publication,production and/or distribution</td><td>2.2 Administrative / Biographical history</td><td>//</td><td><description></td><td>TXXX (custom!)</td><td>//</td></tr>
 							<tr><td>Location of publication</td><td>dc:spatial/coverage</td><td>4.1 Place of publication,production and/or distribution</td><td>2.2 Administrative / Biographical history</td><td>//</td><td><description></td><td>TXXX (custom!)</td><td>//</td></tr>
-							<tr><td>General spatial information</td><td>dc:spatial/coverage</td><td>(7.1.2) Note on nature, scope, form, purpose or language"</td><td>4.5. Finding aids</td><td><Gathering><Country><Altitude><Aspect></Gathering></td><td><description></td><td>TXXX (custom!)</td><td>//</td></tr>
+							<tr><td>General spatial information</td><td>dc:spatial/coverage</td><td>(7.1.2) Note on nature, scope, form, purpose or language"</td><td>4.5. Finding aids</td><td>Gathering/Country/Altitude/Aspect/Gathering</td><td><description></td><td>TXXX (custom!)</td><td>//</td></tr>
 						</table>
 					</div>
 
