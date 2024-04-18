@@ -233,8 +233,14 @@ input, select, textarea {
 	}
 
 	.outputhtml{
-		color: #261c3e;
-		border-color: #261c3e;
+		color: #83b0ff;
+		border-color: #83b0ff;
+	}
+	q{
+		font-style: italic;
+	}
+	b{
+		font-weight: 700;
 	}
 
 	h3 {
