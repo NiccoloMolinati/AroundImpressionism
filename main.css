@@ -236,7 +236,7 @@ input, select, textarea {
 		color: #83b0ff;
 		border-color: #83b0ff;
 	}
-	q{
+	.q{
 		font-style: italic;
 	}
 	b{
