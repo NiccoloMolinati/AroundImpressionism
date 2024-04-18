@@ -232,9 +232,12 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
-	.outputhtml{
+	h1, h2, h3.outputhtml{
 		color: #261c3e;
 		border-color: #261c3e;
+	}
+	p.b {
+		font-weight: 600;
 	}
 	.q{
 		font-style: italic;
