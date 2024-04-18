@@ -30,6 +30,12 @@ section, summary, time, mark, audio, video {
 	margin-right: 10px; 
 }
 
+.same-size-image {
+    width: 240px; 
+    height: auto; 
+}
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
